@@ -1,15 +1,23 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
-      Tab 1
+      Home
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-    <ion-item>
-      <ion-button routerLink="/login">
-           Default
-      </ion-button>
-    </ion-item>
+<ion-content color="favorite">
+    <div class="wrapper">
+      <b>Entre em sua conta ou faça seu registro já!</b>
+
+      <div class="ion-activatable ripple-parent custom-parent" routerLink="/login">
+        Login
+        <ion-ripple-effect></ion-ripple-effect>
+      </div>
+
+      <div class="ion-activatable ripple-parent custom-parent" routerLink="/login">
+        Registro
+        <ion-ripple-effect class="custom-ripple"></ion-ripple-effect>
+      </div>
+    </div>
 </ion-content>
