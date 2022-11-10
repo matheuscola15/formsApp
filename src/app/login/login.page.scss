@@ -24,11 +24,12 @@
   }
 }
 
-ion-label{
+h1{
   text-align: center;
-  justify-content: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 2rem;
 }
+
 ion-title{
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -57,7 +58,7 @@ ion-title{
 }
 
 .oneimput{
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-left: 1rem;
   margin-right: 1rem;
   ion-list{
